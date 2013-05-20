@@ -27,7 +27,7 @@ Fireworks.prototype.starFirework = function(color){};
 			craftLocation.pitch);
 
 		//create a vector with magnitude 30 in the direction the player was facing.
-		var direction_as_vector = bukkit_location.getDirection().normalize().multiply(30);
+		var direction_as_vector = bukkit_location.getDirection().normalize().multiply(15);
 		
 		//add 30 unit vector players location to get point 30 units away that the player is facing.
 		bukkit_location.add(direction_as_vector);
